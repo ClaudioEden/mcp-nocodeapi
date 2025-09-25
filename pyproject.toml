@@ -1,0 +1,26 @@
+[project]
+name = "nocode-api-br"
+version = "0.1.0"
+description = "Aplicativo base em Python"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Seu Nome", email = "seu.email@example.com" }
+]
+dependencies = [
+  "fastapi==0.109.2",
+  "uvicorn[standard]==0.27.1",
+  "python-dotenv==1.0.1",
+  "pydantic==2.6.1",
+  "pydantic-settings==2.1.0",
+  "sqlalchemy==2.0.25"
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["app"]
+testpaths = ["app/tests"]
+addopts = "-ra -q"
