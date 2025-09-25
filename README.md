@@ -33,3 +33,6 @@ Execute os testes com:
 ```bash
 pytest
 ```
+
+
+VOU TE APAGAR
