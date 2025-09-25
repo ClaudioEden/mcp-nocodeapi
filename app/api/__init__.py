@@ -1,0 +1,1 @@
+"""Endpoints expostos pelo aplicativo."""
