@@ -53,3 +53,4 @@ logs/
 # Docker
 *.pid
 
+.DS_Store
